@@ -19,17 +19,17 @@ export default function ContactUs() {
             <h2 className="text-3xl font-bold text-[#9a3412] mb-6 text-center">Book Your Meal</h2>
             <form className="space-y-5">
               <div>
-                <label className="block text-sm font-medium text-black-700 mb-1">Name</label>
+                <label className="block text-sm font-medium text-black-700 mb-1" >Name</label>
                 <input
                   type="text"
-                  placeholder="Your Name"
+                  placeholder="Your Name" name="name"
                   className="w-full px-4 py-2 border border-[#9a3412] bg-white/60 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ea580c]"
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-black-700 mb-1">Email</label>
                 <input
-                  type="email"
+                  type="email" name="email"
                   placeholder="you@example.com"
                   className="w-full px-4 py-2 border border-[#9a3412] bg-white/60 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ea580c]"
                 />
@@ -37,7 +37,7 @@ export default function ContactUs() {
               <div>
                 <label className="block text-sm font-medium text-black-700 mb-1">Phone Number</label>
                 <input
-                  type="tel"
+                  type="tel" name="phone"
                   placeholder="+91 12345 67890"
                   className="w-full px-4 py-2 border border-[#9a3412] bg-white/60 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ea580c]"
                 />
@@ -46,7 +46,7 @@ export default function ContactUs() {
                 <label className="block text-sm font-medium text-black-700 mb-1">Meal Type</label>
                 <textarea
                   rows="4"
-                  placeholder="Your message"
+                  placeholder="Your message" name="message"
                   className="w-full px-4 py-2 border border-[#9a3412] bg-white/60 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ea580c]"
                 ></textarea>
               </div>

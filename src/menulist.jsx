@@ -53,7 +53,7 @@ const AccordionComponentMenu = () => {
   ];
 
   return (
-    <div className=" mx-auto mt-10 shadow-lg rounded-md overflow-hidden border border-[#ea580c]">
+    <div className=" mx-auto mt-10 shadow-lg rounded-md overflow-hidden border border-[#ea580c] ">
       {menuItems.map((menu, index) => (
         <AccordionItem
           key={index}

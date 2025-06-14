@@ -9,15 +9,18 @@ export default function Menu() {
     <div>
       <FoodNavbar />
       <section  style={{
-      padding: 90,
       backgroundImage: "url('/wallpaper.jpeg')",
       backgroundRepeat: "no-repeat",
       backgroundAttachment: "fixed",
     
       backgroundSize: "cover",
     }} >
+      <div className="pt-20">
        <MenuCardSwiper />
-      <AccordionComponentMenu />
+       </div>
+      <div className="md:block md:px-12 px-4 pb-4">
+        <AccordionComponentMenu />
+      </div>
       </section>
        <Footer />
     </div>

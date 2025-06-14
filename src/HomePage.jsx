@@ -22,6 +22,7 @@ export default function HomePage() {
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
           minHeight: "500px",
+
         }}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -34,7 +35,7 @@ export default function HomePage() {
               Discover handcrafted meals made with love. Browse our menu and find your next favorite dish.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap gap-4 md:gap-6 pb-4">
               <FoodTag icon="🍕" text="Margarita Pizza" />
               <FoodTag icon="🥗" text="Grilled Caesar Salad" />
               <FoodTag icon="🍔" text="Burger Bliss Combo" />
@@ -43,7 +44,7 @@ export default function HomePage() {
 
           </div>
 
-          <div className="order-1 lg:order-2 relative">
+          <div className="order-1 lg:order-2 relative pt-8">
             <div className="relative z-10 animate-unfold">
               <img
                 src={burgerimg}
